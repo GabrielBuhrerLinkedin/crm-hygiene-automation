@@ -1,0 +1,189 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "manager_name": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "manager_email": {
+                "type": [
+                    "string",
+                    "null"
+                ]
+            },
+            "total_flagged_opps": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "owners_impacted": {
+                "type": [
+                    "integer",
+                    "null"
+                ]
+            },
+            "issue_summary": {
+                "type": "object",
+                "properties": {
+                    "OL < RTA": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "Upside < OL": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "Missing OL or US": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "Stagnant opportunity": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "Close Date in Past": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    },
+                    "OL < Downside": {
+                        "type": [
+                            "integer",
+                            "null"
+                        ]
+                    }
+                }
+            },
+            "opportunities": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "owner_name": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "owner_id": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "owner_employee_id": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "opp_id": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "opp_name": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "account_name": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "ult_parent_account_name": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "stage": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "days_in_current_stage": {
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        },
+                        "close_date": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "all_flags_text": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "all_flags": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "total_flags": {
+                            "type": [
+                                "integer",
+                                "null"
+                            ]
+                        },
+                        "rule_6_detail": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "forecast": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "renewal_target_amt_conv": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "downside": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        },
+                        "upside": {
+                            "type": [
+                                "number",
+                                "null"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

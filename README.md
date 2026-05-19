@@ -22,7 +22,7 @@ The automation runs on a decoupled, three-tier architecture:
 * `schemas/`
   * `power_automate_schema.json` - The exact JSON schema used in Power Automate (includes `["type", "null"]` fail-safes).
 * `power_automate/`
-  * `CRM_Hygiene_Flow_Backup.zip` - Exported package of the cloud flow for disaster recovery.
+  * `images/` - Architecture screenshots and Power Automate flow structure for visual reference.
 
 ---
 
