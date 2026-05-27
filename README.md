@@ -34,7 +34,7 @@ This engine evaluates the pipeline against the following rules:
 3. **US < OL:** Upside is below Outlook.
 4. **Close Date in Past:** The opportunity close date has expired.
 5. **Missing OL or US:** Financial fields are empty/zero.
-6. **Stagnant Opp:** Opportunity has been in the same stage for >= 30 days.
+6. **Stagnant Opp:** Opportunity has been in the same stage for >= 90 days.
 
 ---
 
